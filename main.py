@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd; pd.set_option('display.max_columns', None); pd.set_option('display.max_rows', None)
+import pandas as pd
 import pybaseball as pyb
 import re
 import streamlit as st
@@ -130,6 +130,7 @@ fielders['Name'] = fielders['FIRST'] + ' ' + fielders['LAST']
 fielders = fielders[['LG', 'TM', 'Name', 'C', '1B', '2B', '3B', 'SS', 'LF', 'CF', 'RF']]
 
 column_config_batters = {
+    "Name": st.column_config.Column("Name", pinned=True),
     "AVG": st.column_config.NumberColumn("AVG", format="%.3f"),
     "OBP": st.column_config.NumberColumn("OBP", format="%.3f"),
     "SLG": st.column_config.NumberColumn("SLG", format="%.3f"),
@@ -152,6 +153,7 @@ column_config_batters = {
 }
 
 column_config_pitchers = {
+    "Name": st.column_config.Column("Name", pinned=True),
     "IP": st.column_config.NumberColumn("IP", format="%.1f"),
     "Start-IP": st.column_config.NumberColumn("Start-IP", format="%.1f"),
     "Relief-IP": st.column_config.NumberColumn("Relief-IP", format="%.1f"),
