@@ -193,7 +193,11 @@ elif selected_page == "Pitchers":
 elif selected_page == "Defense":
     data = fielders
     column_config = {}
-    pos_options = []
+    pos_options = [
+        "ARI", "ATL", "BAL", "BOS", "CHC", "CHW", "CIN", "CLE", "COL", "DET",
+        "HOU", "KCR", "LAA", "LAD", "MIA", "MIL", "MIN", "NYM", "NYY", "OAK",
+        "PHI", "PIT", "SDP", "SFG", "SEA", "STL", "TBR", "TEX", "TOR", "WSN"
+    ]
 
 if selected_page != "Defense":
     left_col, left_mid_col, right_mid_col, right_col = st.columns([1, 1, 1, 1], gap="medium")
@@ -231,5 +235,8 @@ if selected_page != "Defense":
                                 format="%.1f"
                             )
             data = data[(data['IP'] >= usage_range[0]) & (data['IP'] <= usage_range[1])]
-
+else:
+    teams = st.multiselect("Filter by Team", options=pos_options)
+    if teams:
+        data = data[data['TM'].isin(teams)]
 st.dataframe(data, column_config=column_config, height=750, hide_index=True)
