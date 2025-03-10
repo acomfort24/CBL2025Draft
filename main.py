@@ -23,7 +23,7 @@ def get_map():
 
 @st.cache_data(ttl=1800)
 def get_batters(map):
-    cbl_batters = pd.read_csv('batters.csv')
+    cbl_batters = pd.read_csv('batters_sup.csv')
     batting_stats = pyb.batting_stats(2024, qual=0)
 
     pre_batters = pd.merge(cbl_batters, batting_stats, left_on='FanGraph ID', right_on='IDfg', how='inner')
@@ -53,7 +53,7 @@ def get_batters(map):
 
 @st.cache_data(ttl=1800)
 def get_pitchers(map):
-    cbl_pitchers = pd.read_csv('pitchers.csv')
+    cbl_pitchers = pd.read_csv('pitchers_sup.csv')
     pitching_stats = pyb.pitching_stats(2024, qual=0)
 
     pre_pitchers = pd.merge(cbl_pitchers, pitching_stats, left_on='FanGraph ID', right_on='IDfg', how='inner')
