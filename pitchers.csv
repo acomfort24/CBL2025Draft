@@ -1,563 +1,85 @@
-FanGraph ID,Player,CBLCard,CBLPos,CBL5Percent
-30031,"Aguiar, Julian",CIN,SP,33
-26443,"Aldegheri, Sam",LAA,SP,NC
-18694,"Allard, Kolby",PHN,SP/RP,28 1/3
-29921,"Arrighetti, Spencer",HOA,SP/RP,152
-25582,"Basso, Brady",OAA,SP/RP,23 1/3
-23899,"Bellozo, Valente",MMN,SP,72
-23150,"Bido, Osvaldo",OAA,SP/RP,66 1/3
-31635,"Birdsong, Hayden",SFN,SP,75 1/3
-14361,"Blach, Ty",CON,SP/RP,74 2/3
-30171,"Black, Mason",SFN,SP/RP,38
-26419,"Blalock, Bradley",CON/MLN,SP/RP,32
-33168,"Bloss, Jake",HOA,SP,NC
-24607,"Bowlan, Jonathan",KCA,SP,NC
-15440,"Boyd, Matthew",CLA,SP,41 1/3
-27597,"Bradford, Cody",TEA,SP/RP,80
-12272,"Brooks, Aaron",OAA,SP/RP,28
-29823,"Bush, Ky",CHA,SP,NC
-21690,"Cabrera, Edward",MMN,SP,101
-23335,"Cantillo, Joey",CLA,SP/RP,40 1/3
-6632,"Carrasco, Carlos",CLA,SP,108 2/3
-16401,"Chirinos, Yonny",MMN,SP,31 1/3
-12808,"Clevinger, Mike",CHA,SP,NC
-6562,"Cobb, Alex",CLA,SP,17
-9323,"Corbin, Patrick",WAN,SP,183 1/3
-6893,"Cueto, Johnny",LAA,SP,NC
-27582,"Daniel, Davis",LAA,SP,31 2/3
-29271,"Diaz, Yilber",ARN,SP/RP,29 2/3
-19409,"Dunning, Dane",TEA,SP/RP,99 2/3
-27779,"Elder, Bryce",ATN,SP,52
-20070,"Falter, Bailey",PIN,SP,149 1/3
-30056,"Festa, David",MNA,SP/RP,67 1/3
-30160,"Fitts, Richard",BOA,SP,21 2/3
-13896,"Flexen, Chris",CHA,SP/RP,168
-21212,"France, J.P.",HOA,SP,26 1/3
-21844,"Garrett, Braxton",MMN,SP,38 2/3
-29812,"Gasser, Robert",MLN,SP,29 1/3
-10123,"Gibson, Kyle",SLN,SP,178
-15467,"Gonzales, Marco",PIN,SP,35 1/3
-27669,"Gordon, Tanner",CON,SP,36
-29519,"Graceffo, Gordon",SLN,SP/RP,NC
-24580,"Gray, Josiah",WAN,SP,NC
-22207,"Hall, DL",MLN,SP/RP,45
-21520,"Harris, Hogan",OAA,SP/RP,75 2/3
-12049,"Hendricks, Kyle",CHN,SP/RP,137
-26190,"Henley, Blair",HOA,SP,NC
-26285,"Henry, Tommy",ARN,SP/RP,40
-19206,"Hudson, Dakota",CON,SP,93 1/3
-19244,"Irvin, Cole",MNA/BAA,SP/RP,116 1/3
-26020,"Johnson, Seth",PHN,SP,NC
-9434,"Keuchel, Dallas",MLN,SP,NC
-26213,"Kilian, Caleb",CHN,SP/RP,NC
-27688,"Kochanowicz, Jack",LAA,SP,68 1/3
-30146,"Leiter, Jack",TEA,SP/RP,37 1/3
-19320,"Lucchesi, Joey",NYN,SP,NC
-18498,"Maeda, Kenta",DEA,SP/RP,117 2/3
-16358,"Mahle, Tyler",TEA,SP,NC
-20369,"Manning, Matt",DEA,SP,29
-26410,"Manoah, Alek",TOA,SP,25 1/3
-15038,"Marquez, German",CON,SP,NC
-31827,"Matthews, Zebby",MNA,SP,39 1/3
-31900,"Mazur, Adam",SDN,SP,35 1/3
-20038,"McCaughan, Darren",MMN/CLA,SP/RP,44
-29866,"McDermott, Chayce",BAA,SP,NC
-29869,"McGreevy, Michael",SLN,SP/RP,24
-16269,"Means, John",BAA,SP,21 2/3
-21649,"Medina, Luis",OAA,SP,42
-27974,"Mena, Cristian",ARN,SP,NC
-27474,"Meyer, Max",MMN,SP,59 2/3
-8779,"Miley, Wade",MLN,SP,NC
-16511,"Montgomery, Jordan",ARN,SP/RP,122 2/3
-25311,"Munoz, Roddery",MMN,SP/RP,86 2/3
-22191,"Myers, Tobias",MLN,SP/RP,144 2/3
-29833,"Nastrini, Nick",CHA,SP/RP,37 1/3
-20132,"Oller, Adam",MMN,SP,44 1/3
-11828,"Paxton, James",BOA/LAN,SP,105 1/3
-20629,"Phillips, Tyler",PHN,SP/RP,38 1/3
-19979,"Plesac, Zach",LAA,SP,NC
-18769,"Poteet, Cody",NYA,SP/RP,25 1/3
-30055,"Povich, Cade",BAA,SP,83 1/3
-19312,"Quantrill, Cal",CON,SP,155 2/3
-31843,"Rocker, Kumar",TEA,SP,NC
-30161,"Rodriguez, Carlos",MLN,SP,NC
-13164,"Rodriguez, Eduardo",ARN,SP,52 1/3
-33838,"Rodriguez, Yariel",TOA,SP,91
-22286,"Rogers, Trevor",BAA/MMN,SP,130 1/3
-12972,"Ross, Joe",MLN,SP/RP,77 2/3
-29514,"Ryan, River",LAN,SP,21 1/3
-19680,"Sanchez, Sixto",MMN,SP/RP,37 1/3
-19447,"Sandoval, Patrick",LAA,SP,83 1/3
-3137,"Scherzer, Max",TEA,SP,45 1/3
-30107,"Scott, Christian",NYN,SP,49 2/3
-15488,"Senzatela, Antonio",CON,SP,NC
-30074,"Silseth, Chase",LAA,SP,NC
-27685,"Spiers, Carson",CIN,SP/RP,95
-17677,"Springs, Jeffrey",TBA,SP,34 1/3
-13273,"Stripling, Ross",OAA,SP/RP,89 1/3
-6175,"Suarez, Albert",BAA,SP/RP,140 1/3
-6797,"Teheran, Julio",NYN,SP,NC
-25918,"Thompson, Zack",SLN,SP/RP,NC
-16207,"Turnbull, Spencer",PHN,SP/RP,57
-22092,"Tyler, Kyle",MMN,SP/RP,33
-27691,"Varland, Louie",MNA,SP/RP,52
-24719,"Vasquez, Randy",SDN,SP,102 2/3
-25928,"Vines, Darius",ATN,SP/RP,NC
-33527,"Waldrep, Hurston",ATN,SP,NC
-11836,"Walker, Taijuan",PHN,SP/RP,87 2/3
-30182,"Warren, Will",NYA,SP/RP,23 2/3
-20000,"Wells, Tyler",BAA,SP,NC
-20191,"Whitlock, Garrett",BOA,SP,19
-25463,"Williamson, Brandon",CIN,SP/RP,NC
-21238,"Winans, Allan",ATN,SP,NC
-23499,"Winn, Keaton",SFN,SP,58
-13781,"Wood, Alex",OAA,SP,41
-18674,"Woodford, Jake",PIN/CHA,SP/RP,36 2/3
-31204,"Wrobleski, Justin",LAN,SP/RP,38
-13801,"Adams, Austin",OAA,RP,43 1/3
-25651,"Adcock, Ty",NYN,RP,NC
-22925,"Adon, Joan",WAN,RP/SP,NC
-10591,"Alexander, Scott",OAA,RP,40 1/3
-17735,"Alexander, Tyler",TBA,RP/SP,113
-18555,"Allen, Logan",ARN,RP,29 1/3
-15068,"Almonte, Yency",CHN,RP,NC
-16507,"Altavilla, Dan",KCA,RP/SP,NC
-17780,"Alvarado, Jose",PHN,RP,64 2/3
-17859,"Alzolay, Adbert",CHN,RP,18
-6895,"Anderson, Chase",TEA/BOA,RP/SP,61
-20546,"Anderson, Grant",TEA,RP,28
-16201,"Anderson, Justin",CHA,RP,56
-18337,"Anderson, Nick",KCA,RP,37 1/3
-19453,"Anderson, Shaun",MMN/TEA,RP/SP,NC
-23631,"Andrews, Clayton",NYA,RP,NC
-12022,"Andriese, Matt",MMN,RP,NC
-16233,"Antone, Tejay",CIN,RP,NC
-12857,"Armstrong, Shawn",CHN/SLN/TBA,RP/SP,70
-23550,"Ashby, Aaron",MLN,RP/SP,29 2/3
-25667,"Avila, Nick",SFN,RP,NC
-19222,"Bachar, Lake",MMN,RP,NC
-19804,"Baker, Bryan",BAA,RP,24 1/3
-14706,"Banda, Anthony",LAN,RP/SP,52
-14993,"Barlow, Scott",CLA,RP,57 2/3
-12323,"Barnes, Jacob",WAN,RP,69
-12863,"Barnes, Matt",WAN,RP,NC
-20206,"Baumann, Mike",MMN/LAA/SFN/SEA/BAA,RP,61
-20997,"Bazardo, Eduard",SEA,RP,29
-21584,"Beck, Tristan",SFN,RP/SP,NC
-19569,"Bednar, David",PIN,RP,60 1/3
-16981,"Beede, Tyler",CLA,RP,NC
-17192,"Beeks, Jalen",PIN/CON,RP,73 1/3
-27494,"Beeter, Clayton",NYA,RP,NC
-19742,"Bender, Anthony",MMN,RP,55 1/3
-21241,"Bermudez, Jonathan",MMN,RP/SP,NC
-16835,"Bernardino, Brennan",BOA,RP/SP,53 1/3
-22932,"Berroa, Prelander",CHA,RP,19 2/3
-18519,"Bickford, Phil",NYA,RP,NC
-19866,"Bielak, Brandon",OAA/HOA,RP,31
-26259,"Bigge, Hunter",TBA/CHN,RP/SP,NC
-21267,"Bird, Jake",CON,RP,42
-30226,"Bivens, Spencer",SFN,RP/SP,51
-16427,"Blewett, Scott",MNA,RP,21 1/3
-23265,"Bolton, Cody",SEA,RP,19 1/3
-16061,"Booser, Cam",BOA,RP,44 2/3
-16350,"Borucki, Ryan",PIN,RP,NC
-19736,"Boushley, Caleb",MNA,RP,NC
-13528,"Bowman, Matt",BAA/SEA/ARN/MNA,RP/SP,32
-5615,"Brasier, Ryan",LAN,RP/SP,29 1/3
-6107,"Brazoban, Huascar",NYN/MMN,RP,54
-12777,"Brebbia, John",ATN/CHA,RP,58
-12997,"Brewer, Colten",CHN,RP,21 2/3
-25386,"Brito, Jhony",SDN,RP,45 2/3
-21205,"Brogdon, Connor",LAN/PHN,RP,NC
-23779,"Bruihl, Justin",PIN,RP,NC
-27783,"Brzykcy, Zach",WAN,RP,NC
-11176,"Buchanan, David",CIN,RP,NC
-20491,"Bukauskas, J.B.",MLN,RP,NC
-16258,"Bummer, Aaron",ATN,RP,58
-16074,"Burdi, Nick",NYA,RP,NC
-22370,"Burgos, Raymond",SFN,RP,NC
-17968,"Burke, Brock",LAA/TEA,RP/SP,35 2/3
-17536,"Burr, Ryan",TOA,RP/SP,34
-24728,"Burrows, Mike",PIN,RP,NC
-15239,"Busenitz, Alan",CIN,RP,NC
-17490,"Cabrera, Genesis",TOA,RP,65 2/3
-25551,"Campbell, Isaiah",BOA,RP,NC
-25911,"Cano, Yennier",BAA,RP,63
-13276,"Carasiti, Matt",CON,RP,NC
-30085,"Casparius, Ben",LAN,RP,8 2/3
-21183,"Castellanos, Humberto",ARN,RP,NC
-17496,"Castillo, Diego",MNA,RP,NC
-15684,"Castro, Miguel",ARN,RP,NC
-12988,"Chafin, Andrew",TEA/DEA,RP,59
-10233,"Chapman, Aroldis",PIN,RP,64 2/3
-13767,"Chargois, JT",SEA/MMN,RP,38
-5448,"Chavez, Jesse",ATN,RP,66 1/3
-26790,"Chivilli, Angel",CON,RP,33
-26353,"Church, Marc",TEA,RP,NC
-15288,"Cimber, Adam",LAA,RP,25 1/3
-6399,"Cisnero, Jose",LAA,RP,NC
-17897,"Cleavinger, Garrett",TBA,RP,63
-22276,"Coleman, Dylan",HOA,RP,NC
-25839,"Contreras, Luis",HOA,RP,NC
-22810,"Contreras, Roansy",LAA/PIN,RP/SP,71 2/3
-23443,"Cosgrove, Tom",SDN,RP,NC
-13293,"Coulombe, Danny",BAA,RP,31
-21620,"Cousins, Jake",NYA,RP,39 2/3
-17732,"Crismatt, Nabil",LAN,RP,NC
-27608,"Criswell, Jeff",CON,RP,20 1/3
-25645,"Cronin, Declan",MMN,RP,73 2/3
-22192,"Crouse, Hans",LAA,RP,26 1/3
-7048,"Cruz, Fernando",CIN,RP/SP,70
-23165,"Cruz, Steven",KCA,RP,NC
-17701,"Cuas, Jose",TOA/CHN,RP,NC
-25595,"Curry, Xzavion",MMN/CLA,RP/SP,44 2/3
-16128,"Curtiss, John",CON,RP,NC
-19871,"Davidson, Tucker",BAA,RP,NC
-17117,"Davis, Austin",SDN,RP,NC
-25862,"Davis, Noah",CON,RP,21 1/3
-23592,"de Geus, Brett",TOA/MMN/SEA,RP,NC
-18403,"De Los Santos, Enyel",CHA/NYA/SDN,RP,67
-12763,"Devenski, Chris",TBA,RP,28
-20298,"Diaz, Jhonathan",SEA,RP/SP,NC
-18815,"Diaz, Miguel",HOA,RP,NC
-5003,"Diekman, Jake",NYN,RP,33 1/3
-23798,"Dobnak, Randy",MNA,RP,NC
-29928,"Dodd, Dylan",ATN,RP,NC
-21992,"Doval, Camilo",SFN,RP,61 2/3
-17480,"Duarte, Daniel",MNA,RP,NC
-24977,"Dubin, Shawn",HOA,RP/SP,47 1/3
-13758,"Duffey, Tyler",KCA,RP,NC
-20018,"Dunshee, Parker",ATN,RP,NC
-27590,"Eder, Jake",CHA,RP,NC
-13607,"Edwards Jr, Carl",SDN,RP,NC
-18384,"Effross, Scott",NYA,RP,NC
-27668,"Eisert, Brandon",TOA,RP,NC
-29530,"Ellard, Fraser",CHA,RP,25
-15849,"Emanuel, Kent",MMN,RP,NC
-22288,"Englert, Mason",DEA,RP/SP,22 2/3
-8246,"Espino, Paolo",TOA,RP/SP,NC
-19874,"Faedo, Alex",DEA,RP/SP,60
-14814,"Farmer, Buck",CIN,RP/SP,74 1/3
-20116,"Faucher, Calvin",MMN,RP,56 1/3
-15968,"Feigl, Brady",PIN,RP,NC
-19349,"Ferguson, Caleb",HOA/NYA,RP,57
-19481,"Ferguson, Tyler",OAA,RP,53 2/3
-24862,"Fernandez, Ryan",SLN,RP,70
-19330,"Festa, Matt",TEA/NYN,RP,24 2/3
-16610,"Feyereisen, J.P.",LAN,RP,NC
-15009,"Finnegan, Kyle",WAN,RP,66 2/3
-20418,"Fleming, Josh",PIN,RP/SP,32 2/3
-19531,"Foley, Jason",DEA,RP,63
-19647,"Foster, Matt",CHA,RP/SP,NC
-21997,"Frias, Luis",TOA/ARN,RP,NC
-18311,"Fulmer, Carson",LAA,RP/SP,91
-24993,"Funderburk, Kody",MNA,RP,36 1/3
-19835,"Garabito, Gerson",TEA,RP/SP,27 1/3
-20276,"Garcia, Deivi",CHA,RP,NC
-6984,"Garcia, Luis",BOA/LAA,RP,61 2/3
-12095,"Garcia, Yimi",SEA/TOA,RP,40 2/3
-14375,"Garrett, Amir",LAA,RP,NC
-16866,"Garrett, Reed",NYN,RP,60
-17149,"German, Domingo",PIN,RP/SP,21 2/3
-17871,"Gibaut, Ian",CIN,RP,NC
-17964,"Gilbert, Tyler",PHN,RP,NC
-21290,"Gilbreath, Lucas",CON,RP,NC
-22461,"Gillaspie, Logan",SDN,RP,NC
-26171,"Gillispie, Connor",CLA,RP,NC
-19876,"Ginkel, Kevin",ARN,RP,73 1/3
-22872,"Gomez, Yoendrys",NYA,RP,NC
-16408,"Gonzalez, Victor",NYA,RP,24 1/3
-5097,"Gose, Anthony",CLA,RP,NC
-20367,"Graterol, Brusdar",LAN,RP,7 2/3
-15552,"Green, Chad",TOA,RP,56
-23221,"Grove, Michael",LAN,RP/SP,53 1/3
-20045,"Guenther, Sean",DEA,RP,22
-31184,"Guerrero, Luis",BOA,RP,NC
-19278,"Gutierrez, Vladimir",MMN,RP,NC
-33294,"Halvorsen, Seth",CON,RP,NC
-19261,"Hamilton, Ian",NYA,RP,39 1/3
-22304,"Hanifee, Brenan",DEA,RP/SP,30 2/3
-19558,"Hartlieb, Geoff",CON,RP,NC
-29946,"Hartwig, Grant",NYN,RP,NC
-15507,"Harvey, Hunter",KCA/WAN,RP,53
-27702,"Headrick, Brent",MNA,RP,NC
-22224,"Heasley, Jonathan",BAA,RP,NC
-15100,"Heller, Ben",PIN,RP,NC
-26944,"Henriquez, Edgardo",LAN,RP,3 1/3
-24094,"Henriquez, Ronny",MNA,RP/SP,20
-18548,"Hentges, Sam",CLA,RP,24 2/3
-17556,"Herget, Jimmy",ATN,RP,NC
-15369,"Herget, Kevin",MLN,RP,NC
-22713,"Hernandez, Carlos",KCA,RP,31 1/3
-20271,"Hernandez, Daysbel",ATN,RP,18 2/3
-16933,"Hernandez, Elieser",MLN/LAN,RP/SP,NC
-17464,"Hernandez, Jonathan",SEA/TEA,RP/SP,45 1/3
-22318,"Hernandez, Jose",PIN,RP,NC
-19281,"Hernandez, Nick",HOA,RP,NC
-30250,"Hill, Jaden",CON,RP,NC
-4806,"Hill, Rich",BOA,RP,NC
-21481,"Hjelle, Sean",SFN,RP,84 2/3
-25427,"Hollowell, Gavin",CHN,RP,NC
-30002,"Holman, Grant",OAA,RP,NC
-16466,"Honeywell, Brent",LAN/PIN,RP/SP,39 1/3
-27753,"Horn, Bailey",BOA,RP,NC
-12718,"Houser, Adrian",NYN,RP/SP,72 2/3
-23252,"Howard, Spencer",CLA/SFN,RP/SP,30 1/3
-19924,"Hudson, Bryan",MLN,RP,65 1/3
-7146,"Hudson, Daniel",LAN,RP,66
-23460,"Hughes, Brandon",ARN,RP/SP,NC
-27514,"Hurt, Kyle",LAN,RP/SP,NC
-26907,"Iriarte, Jairo",CHA,RP,NC
-7432,"Jackson, Jay",MNA,RP,27 1/3
-11752,"Jackson, Luke",ATN/SFN,RP,55 1/3
-29628,"Jacob, Alek",SDN,RP,NC
-25178,"Jacques, Joe",ARN/BOA,RP,NC
-27477,"Jarvis, Bryce",ARN,RP,62
-17952,"Jay, Tyler",NYN/MLN,RP,NC
-19345,"Jefferies, Daulton",PIN/SFN,RP/SP,NC
-21170,"Jimenez, Dany",OAA,RP,26 2/3
-13619,"Junis, Jakob",CIN/MLN,RP/SP,70 1/3
-23301,"Junk, Janson",OAA/MLN,RP,NC
-30008,"Justice, Evan",CON,RP,NC
-11384,"Kahnle, Tommy",NYA,RP,44 2/3
-15734,"Keller, Brad",BOA/CHA,RP/SP,43 1/3
-9174,"Kelly, Casey",CIN,RP,NC
-9761,"Kelly, Joe",LAN,RP,33 1/3
-12791,"Kelly, Michael",OAA,RP,32 2/3
-20349,"Kelly, Zack",BOA,RP/SP,59 1/3
-23809,"Kerr, Ray",ATN,RP/SP,23 1/3
-6655,"Kimbrel, Craig",BAA,RP,54 2/3
-25890,"King, Bryan",HOA,RP,27 1/3
-22051,"King, John",SLN,RP,63
-18297,"Kinley, Tyler",CON,RP,67
-27910,"Kitchen, Austin",MMN,RP/SP,NC
-12828,"Kittredge, Andrew",SLN,RP,74
-27787,"Klein, Will",OAA/KCA,RP,NC
-24493,"Kloffenstein, Adam",SLN,RP,NC
-13420,"Koch, Matt",CON,RP,NC
-27517,"Koenig, Jared",MLN,RP/SP,65
-21487,"Kolek, Stephen",SDN,RP,49
-27536,"Kravetz, Evan",CIN,RP,NC
-27585,"Kristofak, Zac",LAA,RP,NC
-19315,"Krook, Matt",BAA,RP,NC
-19995,"Kuhnel, Joel",TBA/HOA,RP,NC
-25481,"La Sorsa, Joe",WAN,RP,NC
-17186,"Lamet, Dinelson",LAN,RP,NC
-19883,"Lange, Alex",DEA,RP,19 1/3
-21306,"Latz, Jacob",TEA,RP,45 2/3
-17639,"Lawrence, Justin",CON,RP,62 1/3
-23426,"Lazar, Max",PHN,RP,NC
-24763,"Leahy, Kyle",SLN,RP,51
-29950,"Leasure, Jordan",CHA,RP,32 2/3
-14524,"Leclerc, Jose",TEA,RP,70
-19996,"Lee, Dylan",ATN,RP,62 1/3
-25921,"Legumina, Casey",CIN,RP,NC
-16135,"Leibrandt, Brandon",CIN,RP,NC
-15551,"Leiter, Mark",NYA/CHN,RP,60 2/3
-13763,"Leone, Dominic",CHA,RP,19 2/3
-21574,"Little, Brendon",TOA,RP,47 2/3
-28036,"Little, Luke",CHN,RP/SP,27
-19753,"Loaisiga, Jonathan",NYA,RP,NC
-20231,"Logue, Zach",LAN,RP,NC
-25098,"Lopez, Jacob",TBA,RP/SP,NC
-14527,"Lopez, Jorge",CHN/NYN,RP,55 1/3
-29521,"Loutos, Ryan",SLN,RP,NC
-19337,"Lovelady, Richard",TBA/CHN,RP,36
-26058,"Lucas, Easton",TOA/DEA/OAA,RP,NC
-7593,"Lyles, Jordan",KCA,RP,NC
-21537,"Lynch, Daniel",KCA,RP/SP,45 1/3
-21310,"Maciejewski, Josh",NYA,RP,NC
-30140,"Madden, Ty",DEA,RP/SP,24
-26034,"Maldonado, Anthony",MMN,RP/SP,19 2/3
-14857,"Mantiply, Joe",ARN,RP/SP,62 1/3
-23488,"Marinaccio, Ron",NYA,RP,24 1/3
-21761,"Marte, Jose",LAA,RP,20
-14416,"Marte, Yunior",PHN,RP,27
-11847,"Martin, Chris",BOA,RP,46 1/3
-24453,"Martinez, Justin",ARN,RP,76
-21045,"Martinez, Seth",HOA,RP,55
-18064,"Maton, Phil",NYN/TBA,RP,67
-33826,"Matsui, Yuki",SDN,RP,65 2/3
-20385,"Mattson, Isaac",PIN,RP,NC
-10058,"Matzek, Tyler",ATN,RP,NC
-15042,"Mayza, Tim",NYA/TOA,RP,44 2/3
-21527,"McArthur, James",KCA,RP,59 1/3
-26448,"McDonald, Trevor",SFN,RP,NC
-3237,"McFarland, T.J.",OAA,RP,59 1/3
-12056,"McGough, Scott",ARN,RP/SP,34
-27942,"McMillon, John",MMN,RP,NC
-25376,"Mears, Nick",MLN/CON,RP,60 1/3
-31533,"Mederos, Victor",LAA,RP,NC
-29891,"Meeker, James",MLN,RP,NC
-16703,"Merryweather, Julian",CHN,RP,NC
-26252,"Miller, Erik",SFN,RP/SP,70 2/3
-22187,"Miller, Ryan",LAA,RP,NC
-10197,"Miller, Shelby",DEA,RP,58 1/3
-13346,"Milner, Hoby",MLN,RP/SP,67 2/3
-18655,"Minter, A.J.",ATN,RP,36
-18152,"Misiewicz, Anthony",NYA,RP,NC
-26952,"Molina, Anthony",CON,RP/SP,62 1/3
-14874,"Moll, Sam",CIN,RP,39 1/3
-12760,"Montero, Rafael",HOA,RP,40
-29770,"Montgomery, Mason",TBA,RP,NC
-1890,"Moore, Matt",LAA,RP,50 2/3
-20039,"Morejon, Adrian",SDN,RP,66 2/3
-20203,"Morgan, Eli",CLA,RP,44
-20167,"Muller, Kyle",OAA,RP,51 2/3
-21324,"Mushinski, Parker",HOA,RP,NC
-19178,"Nance, Tommy",TOA,RP,23
-25942,"Nardi, Andrew",MMN,RP,52
-30106,"Neely, Jack",CHN,RP,NC
-20515,"Nelson, Kyle",ARN,RP,NC
-20153,"Nelson, Nick",PHN,RP,NC
-11804,"Neris, Hector",HOA/CHN,RP,62
-16943,"Newcomb, Sean",OAA,RP,NC
-27775,"Nicolas, Kyle",PIN,RP,57 1/3
-16754,"Nittoli, Vinny",BAA/OAA,RP,NC
-23055,"Nunez, Dedniel",NYN,RP,36 2/3
-20348,"O'Brien, Riley",SLN,RP,NC
-13580,"Okert, Steven",MNA,RP/SP,37
-22690,"O'Loughlin, Jack",OAA,RP,NC
-20061,"Ort, Kaleb",HOA,RP,25 2/3
-16942,"Ortiz, Luis F.",PHN,RP,NC
-27626,"Orze, Eric",NYN,RP,NC
-22533,"Otanez, Michel",OAA,RP,35 2/3
-1247,"Ottavino, Adam",NYN,RP,58 2/3
-14771,"Pagan, Emilio",CIN,RP/SP,39 2/3
-27914,"Palencia, Daniel",CHN,RP,NC
-20447,"Paredes, Enoli",CHN/MLN,RP,22 2/3
-14764,"Parsons, Wes",CLA/TOA,RP,NC
-14332,"Payamps, Joel",MLN,RP,61 2/3
-20160,"Pearson, Nate",CHN/TOA,RP/SP,69 1/3
-21652,"Peguero, Elvis",MLN,RP,53 2/3
-27624,"Pennington, Walter",TEA/KCA,RP/SP,NC
-25368,"Penrod, Zach",BOA,RP,NC
-24203,"Peralta, Luis",CON,RP,NC
-25589,"Peralta, Sammy",CHA,RP,NC
-14295,"Peralta, Wandy",SDN,RP,40
-19614,"Perez, Cionel",BAA,RP,56 1/3
-20827,"Petersen, Michael",MMN/LAN,RP,20 1/3
-17734,"Phillips, Evan",LAN,RP,57 1/3
-21858,"Pint, Riley",CON,RP,NC
-16318,"Pinto, Ricardo",PHN,RP,NC
-19403,"Poche, Colin",TBA,RP,39
-20185,"Pop, Zach",TOA,RP,50 2/3
-15290,"Pruitt, Austin",TEA,RP,NC
-19200,"Quijada, Jose",LAA,RP,20
-17610,"Rainey, Tanner",WAN,RP,53 1/3
-10061,"Raley, Brooks",NYN,RP,NC
-17304,"Ramirez, Emmanuel",MMN,RP,21 2/3
-10314,"Ramirez, Erasmo",TBA,RP,21 2/3
-12575,"Ramirez, Nick",LAN,RP,NC
-19444,"Ramirez, Yohan",BOA/LAN/BAA/NYN,RP,47
-17034,"Reid-Foley, Sean",NYN,RP,22 2/3
-16306,"Reyes, Gerardo",OAA,RP,NC
-22253,"Reynolds, Sean",SDN,RP,NC
-26247,"Ribalta, Orlando",WAN,RP,NC
-24581,"Richardson, Lyon",CIN,RP,NC
-21229,"Robert, Daniel",TEA,RP,NC
-24930,"Roberts, Ethan",CHN,RP,28
-26226,"Robertson, Nick",TOA/SLN,RP,NC
-11487,"Rodriguez, Joely",BOA,RP,NC
-20794,"Rodriguez, Manuel",TBA,RP,39 1/3
-23974,"Rodriguez, Randy",SFN,RP/SP,54 2/3
-21955,"Rodriguez, Yerry",TOA/TEA,RP,22 2/3
-18510,"Rogers, Josh",CON,RP,NC
-13449,"Rogers, Taylor",SFN,RP,63
-19574,"Romero, JoJo",SLN,RP,61 2/3
-20009,"Rosenberg, Kenny",LAA,RP/SP,25
-30076,"Roupp, Landen",SFN,RP/SP,52 2/3
-31261,"Roycroft, Chris",SLN,RP,36
-26215,"Rutledge, Jackson",WAN,RP/SP,NC
-19891,"Ryan, Ryder",PIN,RP,21 2/3
-26203,"Saalfrank, Andrew",ARN,RP,NC
-24978,"Sabrowski, Erik",CLA,RP,13
-23135,"Salazar, Eduardo",WAN/LAN,RP,30 2/3
-20462,"Sammons, Bryan",DEA,RP,28 2/3
-19926,"Santillan, Tony",CIN,RP/SP,31 1/3
-21894,"Santos, Gregory",SEA,RP,NC
-17888,"Saucedo, Tayler",SEA,RP,40 1/3
-22284,"Sauer, Matt",KCA,RP,NC
-18323,"Sborz, Josh",TEA,RP,17
-13652,"Scott, Tayler",HOA,RP/SP,72
-24986,"Selby, Colin",BAA/KCA,RP,NC
-13892,"Sewald, Paul",ARN,RP,41 1/3
-8110,"Shaw, Bryan",CHA,RP,NC
-10855,"Shreve, Chasen",CON,RP,NC
-21544,"Shugart, Chase",BOA,RP,NC
-27472,"Shuster, Jared",CHA,RP/SP,77
-13470,"Sims, Lucas",BOA/CIN,RP,51 2/3
-12784,"Smith, Burch",BAA/MMN,RP,59
-17755,"Smith, Drew",NYN,RP,18 1/3
-8048,"Smith, Will",KCA,RP,43 1/3
-11760,"Smyly, Drew",CHN,RP,61 1/3
-19179,"Snead, Kirby",SEA,RP,NC
-23307,"Snider, Collin",SEA,RP,43 2/3
-21863,"Soriano, George",MMN,RP,30 2/3
-19677,"Soto, Gregory",BAA/PHN,RP,55 1/3
-21859,"Speas, Alex",HOA,RP,NC
-17170,"Speier, Gabe",SEA,RP,24 2/3
-15947,"Stanek, Ryne",NYN/SEA,RP,58
-18335,"Staumont, Josh",MNA,RP,25 1/3
-14420,"Stephens, Jackson",ATN,RP,NC
-27694,"Sterner, Justin",TBA,RP,NC
-16727,"Stewart, Brock",MNA,RP,NC
-13761,"Stratton, Chris",KCA,RP,61
-23455,"Stratton, Hunter",PIN,RP,39 1/3
-7836,"Strickland, Hunter",LAA,RP,77
-21367,"Strzelecki, Peter",CLA,RP,NC
-19911,"Suarez, Jose",LAA,RP/SP,54 2/3
-15855,"Suero, Wander",HOA,RP,NC
-15256,"Sulser, Cole",TBA/NYN,RP/SP,NC
-16587,"Swanson, Erik",TOA,RP,41
-17796,"Tate, Dillon",TOA/BAA,RP,38 1/3
-31883,"Taylor, Troy",SEA,RP,20
-24282,"Teng, Kai-Wei",SFN,RP,NC
-10078,"Thielbar, Caleb",MNA,RP,49 2/3
-19795,"Thompson, Keegan",CHN,RP,31 2/3
-17948,"Thornton, Trent",SEA,RP,75 2/3
-16300,"Tinoco, Jesus",MMN/CHN/TEA,RP,42 2/3
-10315,"Tonkin, Michael",MNA/NYA/NYN,RP,83
-15145,"Topa, Justin",MNA,RP,NC
-16929,"Toussaint, Touki",CHA,RP,24
-12572,"Treinen, Blake",LAN,RP,49
-20539,"Uceta, Edwin",TBA,RP,43 2/3
-11589,"Urena, Jose",TEA,RP/SP,114 1/3
-25327,"Uribe, Abner",MLN,RP,NC
-33828,"Uwasawa, Naoyuki",BOA,RP,NC
-23391,"Vanasco, Ricky",DEA/LAN,RP,NC
-24737,"Varland, Gus",CHA/LAN,RP,27 1/3
-27453,"Veneziano, Anthony",MMN/KCA,RP,NC
-21093,"Vespi, Nick",BAA,RP,NC
-14510,"Vieira, Thyago",ARN/BAA/MLN,RP,39 2/3
-20408,"Villalobos, Eli",MMN,RP,NC
-24614,"Vodnik, Victor",CON,RP,77 1/3
-15047,"Voth, Austin",SEA,RP,64
-18318,"Waguespack, Jacob",TBA,RP/SP,NC
-23617,"Walker, Josh",NYN,RP,NC
-26270,"Walston, Blake",ARN,RP/SP,NC
-33834,"Walters, Andrew",CLA,RP/SP,9
-24933,"Wantz, Andrew",LAA,RP,NC
-24937,"Warren, Austin",SFN,RP,NC
-19274,"Webb, Jacob",BAA,RP,59 1/3
-13190,"Weems, Jordan",WAN,RP,43 2/3
-20375,"Weissert, Greg",BOA,RP,66 1/3
-19962,"Wentz, Joey",PIN/DEA,RP,70 2/3
-19225,"White, Mitch",MLN/SFN/TOA,RP,24 2/3
-22273,"White, Owen",TEA,RP,NC
-19586,"Whitley, Forrest",HOA,RP,NC
-26128,"Willingham, Amos",WAN,RP,NC
-19990,"Wilson, Bryse",MLN,RP/SP,109 2/3
-4301,"Wilson, Justin",CIN,RP,49
-20353,"Wilson, Steven",CHA,RP,36 1/3
-24606,"Winder, Josh",MNA,RP,NC
-17793,"Wingenter, Trey",CHN/BOA,RP,NC
-22113,"Winn, Cole",TEA,RP,NC
-9073,"Yates, Kirby",TEA,RP,64 2/3
-18333,"Young, Alex",NYN/CIN,RP,NC
-18439,"Young, Danny",NYN,RP,39 1/3
-15094,"Zastryzny, Rob",MLN,RP/SP,NC
-25420,"Zeferjahn, Ryan",LAA,RP,NC
-20379,"Zuber, Tyler",TBA,RP,NC
-27765,"Zulueta, Yosver",CIN,RP,NC
-19588,"Zuniga, Guillo",LAA,RP,NC
+﻿FanGraph ID,Player,CBLCard,CBLPos,CBL5Percent
+26440,Ryan Gusto,HOA/MMN,SP/RP,106.6666667
+19666,Jason Alexander,OAA/HOA,SP/RP,81
+30113,Chad Patrick,MLN,SP/RP,125.3333333
+23301,Janson Junk,MMN,SP/RP,115.3333333
+16358,Tyler Mahle,TEA,SP,90.66666667
+31312,Colton Gordon,HOA,SP/RP,90
+31623,Jacob Misiorowski,MLN,SP,69
+14120,Lance McCullers Jr.,HOA,SP/RP,58
+26056,Brandon Walter,HOA,SP,56.33333333
+26171,Connor Gillispie,MMN,SP,27
+31475,Logan Henderson,MLN,SP,26 1/3
+17732,Nabil Crismatt,ARN,SP/RP,35 2/3
+23735,Luis Garcia,HOA,SP,8
+20370,Bruce Zimmermann,MLN,SP,6
+33568,Brandyn Garcia,SEA/ARN,RP,15
+19804,Bryan Baker,BAA/TBA,RP,72
+29633,Andrew Hoffmann,KCA/ARN,RP,12 1/3
+25327,Abner Uribe,MLN,RP,79
+21345,Bennett Sousa,HOA,RP,53
+13607,Carl Edwards Jr.,LAA/TEA,RP,6
+27695,Brian Van Belle,TBA,RP,8 2/3
+20827,Michael Petersen,ATN/MMN,RP,18 2/3
+30161,Carlos Rodriguez,MLN,RP,10
+22113,Cole Winn,TEA,RP,43 2/3
+25873,Connor Thomas,MLN,RP,5 1/3
+22176,Easton McGee,MLN,RP,15 1/3
+27626,Eric Orze,TBA,RP,43 2/3
+23324,Freddy Tarnok,MMN,RP,7 2/3
+16631,Jeff Brigham,ARN,RP,3 1/3
+19205,Jesse Scholtens,TBA,RP,8 2/3
+24590,John Rooney,HOA,RP,1 1/3
+19586,Forrest Whitley,HOA/TBA,RP,12 1/3
+26203,Andrew Saalfrank,ARN,RP,30 1/3
+25957,Josh Simpson,MMN,RP,32
+27271,Juan Burgos,SEA/ARN,RP,13 2/3
+15514,Kendall Graveman,ARN,RP,18 1/3
+30206,Christian Montes De Oca,ARN,RP,2 2/3
+27662,Christian Roa,MMN,RP,3
+31884,Logan VanWey,HOA,RP,11
+15256,Cole Sulser,TBA,RP,23 2/3
+24710,Luis Curvelo,TEA,RP,19 2/3
+33248,Craig Yoho,MLN,RP,9
+27974,Cristian Mena,ARN,RP,6 2/3
+22288,Mason Englert,TBA,RP,46 2/3
+29770,Mason Montgomery,TBA,RP,48
+20379,Tyler Zuber,NYN/MMN,RP,12 1/3
+19281,Nick Hernandez,HOA,RP,11
+21863,George Soriano,MMN,RP,38 1/3
+29564,Patrick Monteverde,MMN,RP,3 2/3
+33821,Phillip Abner,ARN,RP,3 2/3
+19835,Gerson Garabito,TEA,RP,8 1/3
+20546,Grant Anderson,MLN,RP,73
+26259,Hunter Bigge,TBA,RP,15 2/3
+24094,Ronny Henriquez,MMN,RP,76 1/3
+21212,J.P. France,HOA,RP,4
+18674,Jake Woodford,ARN,RP,38
+30016,Joe Rock,TBA,RP,8
+24591,Joey Gerber,TBA,RP,4 1/3
+16128,John Curtiss,ARN,RP,38 1/3
+21924,Juan Morillo,ARN,RP,36
+29615,Kyle Backhus,ARN,RP,26 1/3
+20515,Kyle Nelson,ARN,RP,2
+23811,Luarbert Arias,MMN,RP,10 2/3
+25839,Luis Contreras,HOA,RP,12 1/3
+26353,Marc Church,TEA,RP,4 2/3
+26344,Taylor Rashi,ARN,RP,17
+26285,Tommy Henry,ARN,RP,6 2/3
+27932,Ian Seymour,TBA,RP/SP,59 2/3
+13050,Anthony DeSclafani,ARN,RP/SP,40 1/3
+31764,AJ Blubaugh,HOA,RP/SP,33 1/3
+31815,Cade Gibson,MMN,RP/SP,57 1/3
+19736,Caleb Boushley,TEA,RP/SP,45 1/3
+26482,Jayden Murray,HOA,RP/SP,12
+19222,Lake Bachar,MMN,RP/SP,74 1/3
+15094,Rob Zastryzny,MLN,RP/SP,23
+13580,Steven Okert,HOA,RP/SP,75
+20629,Tyler Phillips,MMN,RP/SP,81 1/3
+26136,Austin Pope,ARN,RP,2
+9174,Casey Kelly,ARN,RP,1 2/3
+27481,Cole Wilcox,TBA,RP,1
+26260,Drey Jameson,ARN,RP,3
+27583,Garrett Acton,TBA,RP,1
+13190,Jordan Weems,HOA,RP,4 1/3
+27984,Jose Corniell,TEA,RP,1 2/3

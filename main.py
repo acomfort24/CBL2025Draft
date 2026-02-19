@@ -3,16 +3,15 @@ import pandas as pd
 import pybaseball as pyb
 import re
 import streamlit as st
+from datetime import datetime
 
-st.set_page_config(page_title="CBL 2025 Draft", layout="wide", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title="CBL 2026 Draft", layout="wide", initial_sidebar_state="auto", menu_items=None)
 
 @st.cache_data(ttl=1800)
 def get_map():
-    url = "https://docs.google.com/spreadsheets/d/1JgczhD5VDQ1EiXqVG-blttZcVwbZd5_Ne_mefUGwJnk/pubhtml?gid=0&single=true"
-    tables = pd.read_html(url, header=1)
-
-    # The function returns a list of DataFrames, so you need to select the appropriate one
-    id_map = tables[0]  # assuming the first table is the one you need
+    url = "https://docs.google.com/spreadsheets/d/1JgczhD5VDQ1EiXqVG-blttZcVwbZd5_Ne_mefUGwJnk/export?format=csv&gid=0"
+    
+    id_map = pd.read_csv(url)
 
     id_map = id_map.dropna(how='all')  # Drops rows that are entirely NaN (blank row)
     id_map.reset_index(drop=True, inplace=True)
@@ -23,8 +22,8 @@ def get_map():
 
 @st.cache_data(ttl=1800)
 def get_batters(map):
-    cbl_batters = pd.read_csv('batters_sup.csv')
-    batting_stats = pyb.batting_stats(2024, qual=0)
+    cbl_batters = pd.read_csv('batters.csv')
+    batting_stats = pyb.batting_stats(datetime.now().year - 1, qual=0)
 
     pre_batters = pd.merge(cbl_batters, batting_stats, left_on='FanGraph ID', right_on='IDfg', how='inner')
 
@@ -53,8 +52,8 @@ def get_batters(map):
 
 @st.cache_data(ttl=1800)
 def get_pitchers(map):
-    cbl_pitchers = pd.read_csv('pitchers_sup.csv')
-    pitching_stats = pyb.pitching_stats(2024, qual=0)
+    cbl_pitchers = pd.read_csv('pitchers.csv')
+    pitching_stats = pyb.pitching_stats(datetime.now().year - 1, qual=0)
 
     pre_pitchers = pd.merge(cbl_pitchers, pitching_stats, left_on='FanGraph ID', right_on='IDfg', how='inner')
 
@@ -125,9 +124,8 @@ pitchers['Savant Link'] = pitchers.apply(gen_savant_url, axis=1)
 pitchers = pitchers.drop(columns=['FanGraph ID', 'MLBID', 'MLBNAME'])
 
 fielders = pd.read_csv('defense.csv')
-fielders = fielders[fielders['B/P'] == 'BAT']
-fielders['Name'] = fielders['FIRST'] + ' ' + fielders['LAST']
-fielders = fielders[['LG', 'TM', 'Name', 'C', '1B', '2B', '3B', 'SS', 'LF', 'CF', 'RF']]
+
+fielders = fielders[['Team', 'Name', 'Steal', 'Speed', 'Bunt', 'HitandRun', 'Fielding']]
 
 column_config_batters = {
     "Name": st.column_config.Column("Name", pinned=True),
@@ -180,6 +178,16 @@ column_config_pitchers = {
     "Savant Link": st.column_config.LinkColumn("Baseball Savant")
 }
 
+column_config_defense = {
+    "Team": st.column_config.Column("Team"),
+    "Name": st.column_config.Column("Name", pinned=True),
+    "Steal": st.column_config.TextColumn("Steal"),
+    "Speed": st.column_config.NumberColumn("Speed"),
+    "Bunt": st.column_config.TextColumn("Bunt"),
+    "HitandRun": st.column_config.TextColumn("Hit & Run"),
+    "Fielding": st.column_config.TextColumn("Fielding")
+}
+
 selected_page = st.selectbox(label="page", options=["Batters", "Pitchers", "Defense"], label_visibility='hidden')
 
 if selected_page == "Batters":
@@ -192,11 +200,11 @@ elif selected_page == "Pitchers":
     pos_options = ['SP', 'RP']
 elif selected_page == "Defense":
     data = fielders
-    column_config = {}
+    column_config = column_config_defense
     pos_options = [
-        "ARI", "ATL", "BAL", "BOS", "CHC", "CHW", "CIN", "CLE", "COL", "DET",
-        "HOU", "KCR", "LAA", "LAD", "MIA", "MIL", "MIN", "NYM", "NYY", "OAK",
-        "PHI", "PIT", "SDP", "SFG", "SEA", "STL", "TBR", "TEX", "TOR", "WSN"
+        "ARN", "ATN", "BAA", "BOA", "CHA", "CHN", "CIN", "CLA", "CON", "DEA",
+        "HOA", "KCA", "LAA", "LAN", "MMN", "MLN", "MNA", "NYA", "NYN", "SAA",
+        "PHN", "PIN", "SLN", "SDN", "SFN", "SEA", "TBA", "TEA", "TOA", "WAN"
     ]
 
 if selected_page != "Defense":
@@ -238,5 +246,5 @@ if selected_page != "Defense":
 else:
     teams = st.multiselect("Filter by Team", options=pos_options)
     if teams:
-        data = data[data['TM'].isin(teams)]
+        data = data[data['Team'].isin(teams)]
 st.dataframe(data, column_config=column_config, height=750, hide_index=True)
