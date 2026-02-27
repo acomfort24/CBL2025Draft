@@ -228,20 +228,38 @@ if selected_page != "Defense":
         data = data[(data['Age'] >= age_range[0]) & (data['Age'] <= age_range[1])]
     with right_col:
         if selected_page == "Batters":
-            usage_range = st.slider("Filter by ABs", 
-                                min_value=data['AB'].min(), 
-                                max_value=data['AB'].max(), 
-                                value=(data['AB'].min(), data['AB'].max())
-                            )
+            min_ab = int(data['AB'].min())
+            max_ab = int(data['AB'].max())
+
+            if min_ab == max_ab:
+                st.write(f"ABs: {min_ab}")
+                usage_range = (min_ab, max_ab)
+            else:
+                usage_range = st.slider(
+                    "Filter by ABs",
+                    min_value=min_ab,
+                    max_value=max_ab,
+                    value=(min_ab, max_ab)
+                )
+
             data = data[(data['AB'] >= usage_range[0]) & (data['AB'] <= usage_range[1])]
         else:
-            usage_range = st.slider("Filter by IP", 
-                                min_value=data['IP'].min(), 
-                                max_value=data['IP'].max(), 
-                                value=(data['IP'].min(), data['IP'].max()),
-                                step=0.1,
-                                format="%.1f"
-                            )
+            min_ip = float(data['IP'].min())
+            max_ip = float(data['IP'].max())
+
+            if min_ip == max_ip:
+                st.write(f"IP: {min_ip:.1f}")
+                usage_range = (min_ip, max_ip)
+            else:
+                usage_range = st.slider(
+                    "Filter by IP",
+                    min_value=min_ip,
+                    max_value=max_ip,
+                    value=(min_ip, max_ip),
+                    step=0.1,
+                    format="%.1f"
+                )
+
             data = data[(data['IP'] >= usage_range[0]) & (data['IP'] <= usage_range[1])]
 else:
     teams = st.multiselect("Filter by Team", options=pos_options)
